@@ -27,7 +27,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 }
 
 .container{
-	width: 1280px;
+	min-width: 1280px;
 	margin:  0px auto;
 }
 
@@ -878,7 +878,41 @@ width: 1253px;
 }
 
 
+@media (max-width: 1279px) and (min-width:1024px) {
+
+.container {
+	max-width: 1279px;
+	min-width: 1024px;
+	margin: 0px auto;
+}
+
+.botton-end {
+    display: flex;
+    width: 27em;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-in-button {
+    font-size: 1.1em;
+    font-weight: 500;
+    border: none;
+    background-color: #F6F6F6;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.nav-list {
+    padding: 0;
+}
+
+
+
 @media (max-width: 576px) {
+
+	.container {
+		max-width: 576px;
+	}
 
 .header-logo {
 	width: 265px;
@@ -1059,4 +1093,3 @@ width: 1253px;
 
 
 }
-
