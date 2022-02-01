@@ -765,10 +765,6 @@ width: 1253px;
 	position: relative;
 	background-color:#F8F8F8;
 	padding:  20.5em 0.4em 3.4em 0.4em;
-	/*padding-left: 0.4em;*/
-	/*padding-right: 0.4em;*/
-	/*padding-bottom: 3.4em;*/
-	/*padding-top: 20.5em;	*/
 }
 
 .footer-logo {
@@ -954,8 +950,90 @@ width: 1253px;
 
 }
 
+@media (max-width: 1023px) and (min-width:768px) {
+
+.container {
+	max-width: 1023px;
+	min-width: 768px;
+	margin: 0px auto;
+}
+
+.page-header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    padding: 4.1em 0.6em 0.5em 0.4em;
+}
 
 
+
+.header-logo {
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    left: 19px;
+}
+
+
+.nav-list {
+    padding: 0em;
+    justify-content: space-around;
+}
+
+.botton-end {  
+    justify-content: flex-end;   
+}
+
+.header-in-button {
+    margin-right: 0.5em;
+}
+
+.header-main {
+    padding: 2.5em 0.4em 1em 0.4em;
+   }
+
+.left-part {
+    padding: 0;
+}
+
+.heading-one {
+	text-align: center;
+    font-size: 20px;
+}
+
+.lol {
+    font-size: 30px;
+}
+
+.info-text {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.started {
+    margin-top: 50px;
+ 
+}
+.img-svg {
+    width: 450px;
+}
+
+.isert {
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 180px;
+  	padding: 0;
+  	
+}
+
+.border {
+	display: none;
+}
+
+}
 
 
 
