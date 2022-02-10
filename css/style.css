@@ -1166,7 +1166,110 @@ width: 1253px;
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 767px) and (min-width: 577px) {
+
+.header-logo {
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    top: 10px;
+    left: 19px;
+}
+
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 0.5em;
+    align-content: center;
+}
+
+.botton-end {
+    display: flex;
+    width: 15em;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-up-button {
+    width: 6em;
+    height: 3em;
+    padding: 10px;
+    border-radius: 1.4em;
+}
+
+.header-main {
+	display: inline-block;
+    padding: 1em 0.4em 1em 0.4em;
+}
+
+.left-part {
+    padding-top: 0;
+}
+
+.heading-one {
+	text-align: center;
+    font-size: 20px;
+}
+
+.lol {
+    font-size: 30px;
+}
+
+.info-text {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.button-centr {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80px;
+    
+}
+
+.started {
+	margin: 0;
+}
+
+.right-part {
+	margin-top: 3.5em;
+}
+
+.img-svg {
+    width: 728px;
+    max-width: 100%;
+    height: auto;
+}
+
+.insert-one {
+    padding: 0em 0.4em 0.5em 0.4em;
+}
+
+.isert {
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+  	padding: 0;
+}
+
+.border {
+	display: none;
+}
+
+.user {
+    width: 64px;
+    margin-right: 9px;
+}
+
+}
+
+@media (max-width: 576px)  {
 
 
 .header-logo {
