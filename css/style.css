@@ -1354,6 +1354,32 @@ width: 1253px;
     padding: 0px;
 }
 
+.text-subscribe {
+	padding-left: 0.4em;
+}
+
+.text-sub {
+	font-size: 30px;
+	line-height: 1.2em;
+}
+
+.footer {
+	padding: 0em 0.4em 0em 0.4em;
+}
+
+.right-footer {
+    display: flex;
+    width: 490px;
+    justify-content: space-evenly;
+}
+
+.page-nav-item-one {
+    padding-bottom: 13px;
+}
+
+.text-own {
+	padding-top: 30px ;
+}
 
 }
 
