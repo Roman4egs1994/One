@@ -31,17 +31,11 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 	margin:  0px auto;
 }
 
-
 .page-header {
 	display: flex;
 	justify-content: space-between;
 	background-color: #F6F6F6;
 	padding: 3.2em 0.4em 0.5em 0.4em;
-	/*padding-left: 0.4em;*/
-	/*padding-right: 0.4em;*/
-	/*padding-bottom: 0.5em;*/
-	/*padding-top: 3.2em;*/
-	
 }	
 
 .logo {
@@ -121,10 +115,6 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 	position: relative;
 	background-color:#F6F6F6;
 	padding: 5.8em 0.4em 5em 0.4em;
-	/*padding-left: 0.4em;*/
-	/*padding-right: 0.4em;*/
-	/*padding-bottom: 5em;*/
-	/*padding-top: 5.8em;*/
 }
 
 .left-part {
@@ -278,10 +268,6 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 	justify-content: space-between;
 	background-color:#F6F6F6;
 	padding: 3em 0.4em 5em 0.4em;
-	/*padding-left: 0.4em;*/
-	/*padding-right: 0.4em;*/
-	/*padding-bottom: 5em;*/
-	/*padding-top: 3em;*/
 	}
 
 .left-part-two {
@@ -326,10 +312,6 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 .money-plan {
 	background-color:#F6F6F6;
 	padding:  7.8em 0.4em  5em 0.4em;
-	/*padding-left: 0.4em;*/
-	/*padding-right: 0.4em;*/
-	/*padding-bottom: 5em;*/
-	/*padding-top: 7.8em;*/
 	}
 
 .contents {
@@ -354,6 +336,9 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 	display: flex;
 	justify-content: space-around;
 	padding-top: 71px;
+}
+.container-money-plan-off {
+	display: none;
 }
 
 .box-steaker {
@@ -459,10 +444,6 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 .network {
 	background-color:#F6F6F6;
 	padding: 5.6em 0.4em 3.4em 0.4em;
-	/*padding-left: 0.4em;*/
-	/*padding-right: 0.4em;*/
-	/*padding-bottom: 3.4em;*/
-	/*padding-top: 5.6em;*/
 }
 
 .up-network {
@@ -1126,21 +1107,9 @@ width: 1253px;
  	margin-top: 0.5em;
 }
 
-/*.text-sub {
-    font-size: 20px;
-    line-height: 1.2em;
-}
-
-.text-sub-one {
-	font-size: 15px;
-}*/
-
 .insert-free {
     display: flex;
     justify-content: space-around;
-    /*left: 8px;*/
-    /*top: -100px;*/
-    /*width: 100%;*/
     height: 180px;
    	padding: 0px;
 }
@@ -1167,6 +1136,12 @@ width: 1253px;
 
 
 @media (max-width: 767px) and (min-width: 577px) {
+
+.container {
+	max-width: 767px;
+	min-width: 577px;
+	margin: 0px auto;
+}
 
 .header-logo {
     position: absolute;
@@ -1383,9 +1358,13 @@ width: 1253px;
 
 }
 
-@media (max-width: 576px)  {
+@media (max-width: 576px) and (min-width: 320px) {
 
-
+.container {
+	max-width: 576px;
+	min-width: 320px;
+	margin: 0px auto;
+}
 .header-logo {
 	width: 265px;
 }
