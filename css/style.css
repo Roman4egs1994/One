@@ -1365,8 +1365,11 @@ width: 1253px;
 	min-width: 320px;
 	margin: 0px auto;
 }
+
 .header-logo {
-	width: 265px;
+    width: 527px;
+    max-width: 90%;
+    height: auto;
 }
 
 .page-header {
@@ -1374,17 +1377,39 @@ width: 1253px;
 }
 
 .nav-list {
-	display: block;
-	vertical-align: middle;
-	padding: 1em 0em;
+	display: flex;
+    flex-direction: column-reverse;
+    align-content: flex-start;
+    padding: 1em 0em;
 }
 
 .nav-list .nav-list__anhor {
-	font-size: 3em;
+	font-size: 15.5vw;
 }
 
 .botton-end {
 	display: block;
+}
+
+.header-in-button {
+    width: 95vw;
+    height: 3em;
+    border: 2px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 0.4em;
+    font-size: 6vw;
+    font-weight: 900;
+    color: #060606;
+}
+
+.header-up-button {
+	width: 95vw;
+	height: 3em;
+	border: 2px solid #F53855;
+	border-radius: 0.4em;
+	margin-top: .4em;
+	font-size: 6vw;
+    font-weight: 900;
 }
 
 .left-part {
@@ -1393,10 +1418,15 @@ width: 1253px;
 
 .heading-one {
 	display: inline-block;
-	width: 400px;
-	font-size: 1.5em;
-	word-wrap: break-word;
-	text-align: center;	
+	font-size: 11vw;
+	text-align: center;
+	line-height: 1.1;	
+}
+
+.info-text {
+	font-size: 5vw;
+	text-align: center;
+	line-height: 1.1;
 }
 
 .lol {
@@ -1404,33 +1434,9 @@ width: 1253px;
 	text-align: center;
 }
 
-.info-text {
-	width: 400px;
-	font-size: 1em;
-	word-wrap: break-word;
-	text-align: center;
-	padding-top: 0.5em;
 
-}
 
-.header-in-button {
-	width: 90%;
-	height: 3em;
-	border: 1px solid #F53855;
-    box-sizing: border-box;
-    border-radius: .4em;
-    font-size: 20px;
-    font-weight: 900;
-    color: #F53855;
-}
 
-.header-up-button {
-	width: 90%;
-	border-radius: .3em;
-	margin-top: .4em;
-	font-size: 20px;
-    font-weight: 900;
-}
 
 .header-main {
 	padding: 0px;
